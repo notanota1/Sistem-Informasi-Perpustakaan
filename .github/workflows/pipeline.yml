@@ -10,7 +10,7 @@ on:
             - pipeline
     
 jobs:
-    test:
+    build:
         runs-on: ubuntu-latest
         services:
             mysql:

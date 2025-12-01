@@ -61,6 +61,9 @@ Generate Key App
 ```bash
 node ace generate:key
 ```
+> [!IMPORTANT]
+>
+> Sebelum melakukan langkah dibawah, penting untuk menyalakan database anda terlebih dahulu dengan membuat dan menyesuaikan nama database anda dengan nama database pada `.env`
 
 Migrate Database
 ```bash

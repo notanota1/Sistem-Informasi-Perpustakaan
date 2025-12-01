@@ -34,7 +34,7 @@ Untuk menjalankan SIMAPAN yang berbasis AdonisJS, dibutuhkan versi Node.js versi
 Clone project SIMAPAN
 
 ```bash
-git clone https://github.com/wanda211/TUBES-RPL
+git clone https://github.com/notanota1/Sistem-Informasi-Manajemen-Perpustakaan-SIMAPAN
 ```
 
 Pergi ke folder projectnya. Contoh nama project (`simapan`)

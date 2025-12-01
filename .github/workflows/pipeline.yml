@@ -14,17 +14,14 @@ jobs:
         runs-on: ubuntu-latest
         services:
             mysql:
-                image: mysql:8
+                image: mysql:8.0
                 env:
-                    MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
-                    MYSQL_ROOT_PASSWORD: ""
+                    MYSQL_ROOT_PASSWORD: root
                     MYSQL_DATABASE: perpustakaan
-                    MYSQL_USER: root
-                    MYSQL_PASSWORD: ""
                 options: >-
-                    --health-cmd="mysqladmin ping -h localhost"
+                    --health-cmd="mysqladmin ping -h 127.0.0.1"
                     --health-interval=10s
-                    --health-timeout=5s
+                    --health-timeout=10s
                     --health-retries=5
                 ports:
                     - 3306:3306
@@ -36,6 +33,14 @@ jobs:
               uses: actions/setup-node@v3
               with:
                   node-version: '22'
+            
+            - name: Wait for MySQL
+              run: |
+                for i in {1..30}; do
+                  mysqladmin ping -h 127.0.0.1 -u root -proot && break
+                  echo "Attempt $i: Waiting for MySQL..."
+                  sleep 2
+                done
             
             - name: Install dependencies
               run: npm install

@@ -1,7 +1,7 @@
 
 # Sistem Informasi Manajamen Perpustakaan (SIMAPAN)
 
-Sistem untuk mengatur dan memanajemen buku-buku di Perpustakaan
+Sistem berbasis Adonis JS untuk mengatur dan memanajemen buku-buku di Perpustakaan
 
 ![Screenshot](./docs/ss.webp)
 

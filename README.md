@@ -100,7 +100,7 @@ npm run dev
 ## Pembuatan Akun Admin
 > [!NOTE]
 >
-> Terdapat dua metode untuk membuat akun admin, ini bisa dilakukan lewat database ataupun lewat [Postman](https://www.postman.com/downloads/). Untuk efisiensi waktu, kami merekomendasikan penggunaan [Postman](https://www.postman.com/downloads/).
+> Terdapat dua metode untuk membuat akun admin, ini bisa dilakukan lewat database ataupun lewat [Postman](https://www.postman.com/downloads/). Untuk panduan ini, kami mengharuskan penggunaan [Postman](https://www.postman.com/downloads/) karena lebih hemat waktu dan lebih mudah.
 
 Isi permintaan POST dengan menggunakan URL
 ```bash

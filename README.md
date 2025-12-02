@@ -31,13 +31,13 @@ Untuk menjalankan SIMAPAN yang berbasis AdonisJS, dibutuhkan versi Node.js versi
 ## Instalasi
 
 
-Clone project SIPerpus
+Clone project SIPerpus menggunakan Terminal atau VSCode
 
 ```bash
 git clone https://github.com/notanota1/Sistem-Informasi-Perpustakaan
 ```
 
-Buka projectnya menggunakan VSCode atau code editor yang serupa, lalu pastikan posisi pada folder root (Folder paling awal project). Contoh nama project secara default (`Sistem-Informasi-Perpustakaan`)
+Buka projectnya menggunakan VSCode, lalu pastikan posisi pada folder root (Folder paling awal project). Contoh nama project secara default (`Sistem-Informasi-Perpustakaan`)
 
 
 Salin file `.env.example` menjadi `.env` untuk digunakan sebagai enviorement

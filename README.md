@@ -37,11 +37,8 @@ Clone project SIPerpus
 git clone https://github.com/notanota1/Sistem-Informasi-Perpustakaan
 ```
 
-Pergi ke folder projectnya. Contoh nama project (`simapan`)
+Buka projectnya menggunakan VSCode atau code editor yang serupa, lalu pastikan posisi pada folder root (Folder paling awal project). Contoh nama project secara default (`Sistem-Informasi-Perpustakaan`)
 
-```bash
-cd simapan
-```
 
 Salin file `.env.example` menjadi `.env` untuk digunakan sebagai enviorement
 

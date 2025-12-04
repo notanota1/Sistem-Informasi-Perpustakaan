@@ -1,4 +1,4 @@
-# Sistem Informasi Manajamen Perpustakaan (SIMAPAN)
+# Sistem Informasi Perpustakaan (SIPERPUS)
 
 Sistem berbasis Adonis JS untuk mengatur dan memanajemen buku-buku di Perpustakaan
 
